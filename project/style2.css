@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(178, 126, 49);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+h1{
+    color: rgb(75, 38, 15);
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+h1{
+    position: absolute;
+    left: 80px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images2/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 160px;
+    height: 90px;
+
+    background-size: contain;
+    
+    text-indent: -9999px;
+}
+
+header li{
+    display: inline;
+    margin-right: 4vw;
+    text-align: center
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-align: center
+}
+header a hover{
+    text-decoration:underline;
+}
+.news{
+    background-color: beige;
+    color:black;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news h2{
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.news p{
+    color: gray;
+    font-size: 18px;
+    margin:25px 0;
+    text-align: center;
+}
+.news2 h2{
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 25px;
+}
+.slogan{
+    background-color: #485652;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 1.8em; 
+    text-align: center;
+}
+.news2 h3{
+    font-size: 25px;
+    text-align: center;
+    color:#485652;
+}
+.news2 p{
+    color:darkgray;
+    font-size: 15px; 
+    margin: 25px 0;
+    text-align: center;
+}
+.news2 ol{
+    color:darkgray;
+     text-align: center;
+     padding: 25px;
+}
+.news2 ul{
+    color:darkgray;
+     text-align: center;
+     padding: 25px;
+}
+.news2{
+    background-color: beige;
+}
+.news3 h2{
+     font-size: 40px;
+    margin-top: 0px;
+    padding: 25px;
+    text-align: center;
+}
+.news3 p{
+     color:darkgray;
+    font-size: 15px; 
+    margin: 25px 0;
+    text-align: center
+}
+.news3 h3{
+    color:#485652;
+    font-size: 25px; 
+    margin: 25px 0;
+    text-align: center
+}
+.news3 ol{
+     color:darkgray;
+    font-size: 15px; 
+    margin: 25px 0;
+    text-align: center
+}
+.news3{
+    background-color: beige;
+    padding: 20px;
+}
+footer{
+    background-color: #000000;
+    color: #B7B7B7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.newsletter{
+    background-color:rgb(178, 126, 49);
+    color: white;
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter p{
+    margin-bottom: 0px;
+    font-size: 30px;
+}
